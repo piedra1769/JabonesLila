@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario</title>
+    <link rel="shortcut icon" href="Imágenes/Logo.PNG">  
+    <link rel="stylesheet" href="Grid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="contenedor">
+  
+        <header>
+            <img class="logo" src="./Imágenes/Logo.PNG">
+        </header>
+
+        <div id="Menu">
+            <a href="Index.html">Home</a>
+            <a href="Nosotros.html">Nosotros</a>
+            <a href="Productos.html">Productos</a>
+            <a href="Tienda.html">Tienda</a>
+            <a href="Usuario.html">Usuario</a>
+        </div>
+
+        <form>
+            <fieldset>
+                <legend>Formulario de registro</legend>
+                <label for="Nombre completo">Nombre completo</label>
+                <input type="text" name="Nombre completo"/>
+                <br>
+                <label for="Documento de identidad">Documento de identidad</label>
+                <input type="number" name="Documento de identidad"/>
+                <br>
+                <label for="Municipio de residencia">Municipio de residencia</label>
+                <select name="Ciudad">
+                    <option value="Medellín">Medellín</option>
+                    <option value="Itagüí">Itagüí</option>
+                    <option value="Bello">Bello</option>
+                    <option value="Envigado">Envigado</option>
+                    <option value="Sabaneta">Sabaneta</option>
+                    <option value="Caldas">Caldas</option>
+                    <option value="La Estrella">La Estrella</option>
+                </select>
+                <div>Hombre</div>
+                <input type="radio" name="Sexo" value="Hombre"/>
+                <div>Mujer</div>
+                <input type="radio" name="Sexo" value="Mujer"/>
+                <div>Acepta términos y condiciones</div>
+                <input type="checkbox" name="Aceptar" value="1"/>
+                <br>
+                <input type="submit" value="Enviar formulario"/>
+                <input type="reset" value="limpiar formulario"/>
+            </fieldset>
+        </form>
+
+        <footer id="footer">
+            <div id="cuadro1">  
+                <h2>Contacto</h2>
+                <ul>
+                    <li>Correo electrónico: lila@lila.com.co</li> 
+                    <li>Teléfono: 057 604 444 44 44</li> 
+                    <li>Horario: de 9 a.m. a 5 p.m.</li>    
+                    <li>Dirección: Calle 35 N° 75-25 Medellín</li>
+                </ul>
+            </div>
+
+            <div id="cuadro2">  
+                <h2>Otros</h2>
+                <ul>
+                    <li>Políticas de envío</li>
+                    <li>PQRS</li>
+                </ul>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+</body>
+</html>
