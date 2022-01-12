@@ -112,7 +112,14 @@ ul {
     border-radius: 20px;
     overflow: auto;
     color: #ffffff ;
+    transition: background-color, heigth;
 }
+
+#cuadro1:hover {
+    background-color: rgb(223, 198, 223);
+    height: 800px;
+}
+
 
 #cuadro2 {
     grid-column: 3/5;
@@ -122,6 +129,11 @@ ul {
     border-radius: 20px;
     overflow: auto;
     color: #ffffff;
+}
+
+#cuadro2:hover {
+    background-color: rgb(223, 198, 223);
+    transition: background-color 2s;
 }
 
 footer {
